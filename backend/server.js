@@ -243,6 +243,11 @@ app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Something went wrong!', message: err.message });
 });
 
+app.get("/", (req, res) => {
+  res.send(" API is live.");
+});
+
+
 // 404 handler
 app.use((req, res) => {
   res.status(404).json({ error: 'Route not found' });
