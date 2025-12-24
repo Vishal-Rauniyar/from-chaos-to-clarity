@@ -1,0 +1,30 @@
+{
+  "name": "operations-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Operations Intelligence System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "operations",
+    "tracking",
+    "nlp",
+    "analytics"
+  ],
+  "author": "Vishal Rauniyar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "type": "commonjs"
+}
