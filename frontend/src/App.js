@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, TrendingUp, AlertCircle, Clock, CheckCircle, Filter, Search, BarChart3 } from 'lucide-react';
 
-const API_URL = 'http://localhost:3001/api';
+// const API_URL = 'http://localhost:3001/api';
+const API_URL = 'https://from-chaos-to-clarity-backend.onrender.com/api';
 
 export default function OperationsTracker() {
   const [entries, setEntries] = useState([]);
